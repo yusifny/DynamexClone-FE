@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  src: url(/assets/fonts/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
 * {
   margin: 0;
   padding: 0;
