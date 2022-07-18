@@ -1,0 +1,29 @@
+.top-header{
+    background-color: #fdfaf6;
+    .container{
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        .top-header-right-side{
+            a{
+                font-size: 14px;
+            }
+            .sign-in{
+                color: black;
+                font-weight: normal;
+                &:hover{
+                    color: #606070;
+                }
+            }
+            .sign-up{
+                color: white;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 5px;
+                background-color: #fd475d;
+                font-weight: normal;
+            }
+        }
+    }
+}
