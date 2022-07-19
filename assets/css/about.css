@@ -45,6 +45,16 @@
   border-radius: 5px;
   padding: 0px;
 }
+.top-header .container .top-header-right-side .lang-drop-down .aze {
+  padding: 8px;
+  color: black;
+}
+.top-header .container .top-header-right-side .lang-drop-down .aze:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transition: 0.2s;
+  color: #7b7b93;
+}
 .top-header .container .top-header-right-side .lang-drop-down .eng {
   padding: 8px;
   color: black;
@@ -64,6 +74,9 @@
   border-radius: 5px;
   transition: 0.2s;
   color: #7b7b93;
+}
+.top-header .container .top-header-right-side .lang-drop-down .selected {
+  display: none;
 }
 .top-header .container .top-header-right-side .sign-in {
   color: black;
