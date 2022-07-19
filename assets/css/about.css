@@ -176,7 +176,7 @@ footer .footer h3 {
   font-size: 18px;
   margin-bottom: 3rem;
 }
-footer .footer .address-title {
+footer .footer .address-title, footer .footer .downloads-title {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
