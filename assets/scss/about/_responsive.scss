@@ -13,7 +13,7 @@
         }
     }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
     .about-sec{
         .image-about{
             img{
@@ -24,6 +24,14 @@
                 width: 238px; 
                 height: 310px;
                 transform: translate(590px, -281px);
+            }
+        }
+    }
+    footer{
+        .downloads{
+            // display: none;
+            .flex-raw{
+                flex-direction: column;
             }
         }
     }

@@ -292,7 +292,7 @@ footer .footer .address-list li {
     transform: translate(644px, -260px);
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .about-sec .image-about img {
     width: 720px;
     height: 351px;
@@ -301,5 +301,8 @@ footer .footer .address-list li {
     width: 238px;
     height: 310px;
     transform: translate(590px, -281px);
+  }
+  footer .downloads .flex-raw {
+    flex-direction: column;
   }
 }
