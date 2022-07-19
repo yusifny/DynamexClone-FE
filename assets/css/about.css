@@ -29,10 +29,10 @@
   font-weight: lighter;
   color: black;
 }
-.top-header .container .top-header-right-side .lang {
+.top-header .container .top-header-right-side .lang-all {
   color: #7b7b93;
 }
-.top-header .container .top-header-right-side .lang:hover {
+.top-header .container .top-header-right-side .lang-all:hover {
   color: black;
 }
 .top-header .container .top-header-right-side .lang-drop-down {
