@@ -29,6 +29,12 @@
   font-weight: lighter;
   color: black;
 }
+.top-header .container .top-header-right-side .lang {
+  color: #7b7b93;
+}
+.top-header .container .top-header-right-side .lang:hover {
+  color: black;
+}
 .top-header .container .top-header-right-side .sign-in {
   color: black;
   font-weight: normal;
@@ -53,6 +59,10 @@
 .bottom-header .container {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+.bottom-header .container .bottom-header-left-side .logo:hover {
+  opacity: 0.9;
+  transition: 0.2s, ease-in-out;
 }
 .bottom-header .container .bottom-header-menu a {
   color: black;
@@ -80,6 +90,10 @@
   font-size: 12px;
   position: absolute;
   transform: translate(-2px, -10px);
+}
+.bottom-header .container .bottom-header-menu .cart:hover {
+  background-color: #f8f8f8;
+  transition: 0.2s ease-in-out;
 }
 .bottom-header .container .bottom-header-right-side .sign-in {
   color: black;

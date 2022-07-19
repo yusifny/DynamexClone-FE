@@ -9,6 +9,12 @@
                 font-weight: lighter;
                 color: black;
             }
+            .lang{
+                color: #7b7b93;
+                &:hover{
+                    color: black;
+                }
+            }
             .sign-in{
                 color: black;
                 font-weight: normal;
@@ -34,6 +40,12 @@
     .container{
         padding-left: 4rem;
         padding-right: 4rem;
+        .bottom-header-left-side{
+            .logo:hover{
+                opacity: .9;
+                transition: .2s, ease-in-out;
+            }
+        }
         .bottom-header-menu{
             a{
                 color: black;
@@ -60,6 +72,10 @@
                     font-size: 12px; 
                     position: absolute;
                     transform: translate(-2px, -10px);
+                }
+                &:hover{
+                    background-color: #f8f8f8;
+                    transition: .2s ease-in-out;
                 }
             }
         }
