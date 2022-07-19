@@ -36,14 +36,7 @@
   color: black;
 }
 .top-header .container .top-header-right-side .lang-drop-down {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  transform: translate(-5px, 55px);
-  background-color: #fdfaf6;
-  border: 0.9px solid black;
-  border-radius: 5px;
-  padding: 0px;
+  display: none;
 }
 .top-header .container .top-header-right-side .lang-drop-down .aze {
   padding: 8px;
@@ -77,6 +70,16 @@
 }
 .top-header .container .top-header-right-side .lang-drop-down .selected {
   display: none;
+}
+.top-header .container .top-header-right-side .open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-5px, 55px);
+  background-color: #fdfaf6;
+  border: 0.9px solid black;
+  border-radius: 5px;
+  padding: 0px;
 }
 .top-header .container .top-header-right-side .sign-in {
   color: black;
