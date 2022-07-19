@@ -35,6 +35,14 @@
 .top-header .container .top-header-right-side .lang-all:hover {
   color: black;
 }
+.top-header .container .top-header-right-side .lang-all .chevron {
+  transition: transform 0.1s ease-in-out;
+}
+.top-header .container .top-header-right-side .lang-all .chevron-toggle {
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
 .top-header .container .top-header-right-side .lang-drop-down {
   display: none;
 }
