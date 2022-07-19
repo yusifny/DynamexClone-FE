@@ -35,6 +35,36 @@
 .top-header .container .top-header-right-side .lang:hover {
   color: black;
 }
+.top-header .container .top-header-right-side .lang-drop-down {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-5px, 55px);
+  background-color: #fdfaf6;
+  border: 0.9px solid black;
+  border-radius: 5px;
+  padding: 0px;
+}
+.top-header .container .top-header-right-side .lang-drop-down .eng {
+  padding: 8px;
+  color: black;
+}
+.top-header .container .top-header-right-side .lang-drop-down .eng:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transition: 0.2s;
+  color: #7b7b93;
+}
+.top-header .container .top-header-right-side .lang-drop-down .rus {
+  padding: 8px;
+  color: black;
+}
+.top-header .container .top-header-right-side .lang-drop-down .rus:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  transition: 0.2s;
+  color: #7b7b93;
+}
 .top-header .container .top-header-right-side .sign-in {
   color: black;
   font-weight: normal;

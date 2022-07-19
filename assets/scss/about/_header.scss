@@ -15,6 +15,36 @@
                     color: black;
                 }
             }
+            .lang-drop-down{
+                display: flex; 
+                flex-direction:column; 
+                position: absolute; 
+                transform: translate(-5px, 55px); 
+                background-color: #fdfaf6; 
+                border: .9px solid black;
+                border-radius: 5px;
+                padding: 0px;
+                .eng{
+                    padding: 8px;
+                    color: black;
+                    &:hover{
+                        background-color: whitesmoke;
+                        border-radius: 5px;
+                        transition: .2s;
+                        color: #7b7b93;
+                    }
+                }
+                .rus{
+                    padding: 8px;
+                    color: black;
+                    &:hover{
+                        background-color: whitesmoke;
+                        border-radius: 5px;
+                        transition: .2s;
+                        color: #7b7b93;
+                    }
+                }
+            }
             .sign-in{
                 color: black;
                 font-weight: normal;
