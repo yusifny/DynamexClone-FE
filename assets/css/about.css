@@ -7,6 +7,14 @@
 .about-sec p {
   font-size: 14px;
 }
+.about-sec .about-title {
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+}
+.about-sec .description {
+  margin-bottom: 5rem;
+  color: #7b7b93;
+}
 .about-sec .image-about img {
   position: relative;
   border-radius: 10px;
