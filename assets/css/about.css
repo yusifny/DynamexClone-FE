@@ -56,7 +56,4 @@
     height: 310px;
     transform: translate(590px, -281px);
   }
-  footer .downloads .flex-raw {
-    flex-direction: column;
-  }
 }
