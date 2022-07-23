@@ -1,0 +1,42 @@
+#intro {
+  padding: 3rem 7rem;
+}
+#intro .rates-title {
+  margin-bottom: 1rem;
+}
+#intro .rates-title b {
+  font-size: 35px;
+}
+#intro .rates-description {
+  margin-bottom: 3rem;
+}
+#intro .rates-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+#intro .location {
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+#intro .location a {
+  padding: 7px 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+#intro .location a:hover {
+  background-color: #fef5e9;
+  border-radius: 5px;
+  color: #fd475d;
+}
+#intro .location a:focus {
+  background-color: #fd475d;
+  border-radius: 5px;
+  color: white;
+}
+#intro .location .active {
+  background-color: #fd475d;
+  border-radius: 5px;
+  color: white;
+}
