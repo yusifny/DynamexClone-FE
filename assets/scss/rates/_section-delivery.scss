@@ -51,6 +51,9 @@
                     .price{
                         font-size: 15px;
                         font-weight: 600;
+                        &::after{
+                            content: "USD";
+                        }
                     }
                 }
                 .liquid{
@@ -62,6 +65,9 @@
                     .price{
                         font-size: 15px;
                         font-weight: 600;
+                        &::after{
+                            content: "USD";
+                        }
                     }
                 }
             }
