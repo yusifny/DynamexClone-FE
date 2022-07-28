@@ -103,6 +103,9 @@
   transform: translate(0%, 2%);
   box-shadow: none;
 }
+#contact .form .form-content form .btn-wrap .calculate:focus {
+  box-shadow: none;
+}
 
 #intro {
   padding: 3rem 7rem;
