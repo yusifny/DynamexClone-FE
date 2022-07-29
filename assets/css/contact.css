@@ -1,5 +1,8 @@
 #contact {
-  padding: 0rem 7rem 3rem;
+  padding: 0rem 7rem;
+}
+#contact .info {
+  margin-bottom: 3rem;
 }
 #contact .info .info-title {
   margin-bottom: 2rem;
@@ -88,22 +91,22 @@
 #contact .form .form-content form .btn-wrap {
   margin-bottom: 1rem;
 }
-#contact .form .form-content form .btn-wrap .calculate {
+#contact .form .form-content form .btn-wrap .send {
   background-color: #fd475d;
   padding: 0.85rem 3.5rem;
   border-radius: 10px;
   color: white;
   transition: 0.2s;
 }
-#contact .form .form-content form .btn-wrap .calculate:hover {
+#contact .form .form-content form .btn-wrap .send:hover {
   transform: translate(0%, -1%);
   box-shadow: 0px 2px 5px 1px #8D8D8D;
 }
-#contact .form .form-content form .btn-wrap .calculate:active {
+#contact .form .form-content form .btn-wrap .send:active {
   transform: translate(0%, 2%);
   box-shadow: none;
 }
-#contact .form .form-content form .btn-wrap .calculate:focus {
+#contact .form .form-content form .btn-wrap .send:focus {
   box-shadow: none;
 }
 
