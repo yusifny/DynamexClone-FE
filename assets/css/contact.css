@@ -39,6 +39,9 @@
 #contact .info .info-content .hours {
   background-color: #ecccf4;
 }
+#contact .form {
+  margin-bottom: 3rem;
+}
 #contact .form .form-title {
   margin-bottom: 2rem;
 }
