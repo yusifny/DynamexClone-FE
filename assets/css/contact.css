@@ -1,5 +1,5 @@
 #contact {
-  padding: 0rem 7rem;
+  padding: 3rem 7rem;
 }
 #contact .info {
   margin-bottom: 3rem;
@@ -10,6 +10,9 @@
 #contact .info .info-title b {
   font-size: 21px;
   font-weight: 500;
+}
+#contact .info .info-content {
+  margin-bottom: 1rem;
 }
 #contact .info .info-content ul {
   list-style: none;
@@ -38,6 +41,25 @@
 }
 #contact .info .info-content .hours {
   background-color: #ecccf4;
+}
+#contact .info .socials {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+#contact .info .socials .social {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 9.9px;
+  padding-right: 9.9px;
+  border: 1.2px solid #34345e;
+  border-radius: 50%;
+}
+#contact .info .socials .social:hover {
+  border: 1.2px solid #fd475d;
+  color: #fd475d;
+  transition: 0.1s ease-in-out;
+  background-color: #fd475d;
 }
 #contact .form {
   margin-bottom: 3rem;

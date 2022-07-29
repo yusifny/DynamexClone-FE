@@ -1,5 +1,5 @@
 #contact{
-    padding: 0rem 7rem;
+    padding: 3rem 7rem;
     .info{
         margin-bottom: 3rem;
         .info-title{
@@ -10,6 +10,7 @@
             }
         }
         .info-content{
+            margin-bottom: 1rem;
             ul{
                 list-style: none;
                 padding: 0;
@@ -38,6 +39,25 @@
             }
             .hours{
                 background-color: #ecccf4;
+            }
+        }
+        .socials{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1rem;
+            .social{
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 9.9px;
+                padding-right: 9.9px;
+                border: 1.2px solid #34345e;
+                border-radius: 50%;
+                &:hover{
+                    border: 1.2px solid #fd475d;
+                    color: #fd475d;
+                    transition: .1s ease-in-out;
+                    background-color: #fd475d;
+                }
             }
         }
     }
