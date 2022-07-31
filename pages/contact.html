@@ -200,41 +200,41 @@
                             <b>Sualınız var? Bizə yazın!</b>
                         </div>
                         <div class="form-content">
-                            <form method="post" action="https://httpbin.org/post" target="_blank">
+                            <form id="form">
                                 <div class="name-surname col-12 d-flex">
                                     <div class="col-6 name form-group">
                                         <label for="name">Ad</label>
-                                        <input type="text" name="name" id="name">
+                                        <input type="text" name="name" id="first-name">
                                         <span class="name-err d-flex justify-content-start">Ad boş qoyula bilməz</span>
                                     </div>
                                     <div class="col-6 surname form-group">
                                         <label for="surname">Soyad</label>
-                                        <input type="text" name="surname" id="surname">
+                                        <input type="text" name="surname" id="last-name">
                                         <span class="surname-err d-flex justify-content-start">Soyad boş qoyula bilməz</span>
                                     </div>
                                 </div>
                                 <div class="costumer-contacts form-group col-12 d-flex">
                                     <div class="col-6 tel form-group">
                                         <label for="tel">Telefon</label>
-                                        <input type="tel" name="tel" id="tel">
+                                        <input type="tel" name="tel" id="phone-number">
                                         <span class="tel-err d-flex justify-content-start">Telefon boş qoyula bilməz</span>
                                     </div>
                                     <div class="col-6 email form-group">
                                         <label for="email">Email</label>
-                                        <input type="email" name="email" id="email">
+                                        <input type="email" name="email" id="email-address">
                                         <span class="mail-err d-flex justify-content-start">Email boş qoyula bilməz</span>
                                     </div>
                                 </div>
                                 <div class="col-12 message form-group">
                                     <label for="message">Mesaj</label>
-                                    <textarea name="message" id="message"></textarea>
+                                    <textarea name="message" id="text-message"></textarea>
                                     <span class="msg-err d-flex justify-content-start">Mesaj boş qoyula bilməz</span>
                                 </div>
                                 <div class="col-12 recaptcha">
                                     <div class="g-recaptcha" data-sitekey="6LcAyychAAAAAJMBRWBsJP7eQKtelAF5r8Bae9Lg"></div>
                                 </div>
                                 <div class="btn-wrap d-flex justify-content-center">
-                                    <button class="send btn" type="submit" value="submit">
+                                    <button class="send btn" type="submit" id="sendButton">
                                         Göndər
                                     </button>
                                 </div>
