@@ -1,8 +1,7 @@
 #news{
-    padding: 0rem 7rem 10rem;
-
+    padding: 0rem 7rem 5rem;
     .sort-wrap{
-
+        margin-bottom: 6rem;
         .main{
             cursor: pointer;
             font-size: 15px;
@@ -56,5 +55,74 @@
                   -ms-user-select: none;
                       user-select: none;
         }
+    }
+    .card{
+        min-width: 32%;
+        border: 0;
+        img{
+            border: 1px solid #e6e6e6;
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+            // pointer-events: none;
+        }
+        .detail{
+            padding: .5rem 1rem; 
+            background-color: #fdfaf6;
+            border-radius: 0 0 10px 10px;
+            border: 1px solid #e6e6e6;
+            border-top: 0;
+            height: 75px;
+            b{
+                overflow: hidden;
+                font-size: 13px;
+                color: rgba(0, 0, 0, 0.733);
+            }
+            span{
+                font-size: 12px;
+                color: #8c8c8c;
+            }
+        }
+        transition: .2s ease-in-out;
+        .noselect {
+            -webkit-touch-callout: none;
+              -webkit-user-select: none;
+               -khtml-user-select: none;
+                 -moz-user-select: none;
+                  -ms-user-select: none;
+                      user-select: none;
+        }
+    }
+    .pagination{
+
+        a{
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: .6rem;
+            font-size: 16px;
+            transition: .2s ease;
+            &:hover{
+                border: 1px solid #e6e6e6;
+                border-radius: 5px;
+                color: #fd475d;
+                background-color: #fef5e9;
+            }
+        }
+        .active-page{
+            background-color: #fd475d;
+            color: #fff;
+            border: 1px solid #fd475d;
+            border-radius: 5px;
+            padding: .6rem;
+            font-size: 16px;
+            &:hover{
+                color: #fff;
+                background-color: #fd475d;
+                border: 1px solid #fd475d;
+            }
+        }
+    }
+    .disabled{
+    pointer-events: none;
+        opacity: .5;
     }
 }
