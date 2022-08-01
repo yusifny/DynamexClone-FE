@@ -1,0 +1,16 @@
+#intro {
+  padding: 3rem 7rem;
+}
+#intro .news-title {
+  margin-bottom: 1rem;
+}
+#intro .news-title b {
+  font-size: 35px;
+}
+#intro .news-description {
+  margin-bottom: 1rem;
+}
+#intro .news-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
