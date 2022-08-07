@@ -1,0 +1,16 @@
+#intro {
+  padding: 3rem 3rem 0;
+}
+#intro .register-title {
+  margin-bottom: 1rem;
+}
+#intro .register-title b {
+  font-size: 35px;
+}
+#intro .register-description {
+  margin-bottom: 1rem;
+}
+#intro .register-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
