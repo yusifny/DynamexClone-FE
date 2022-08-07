@@ -1,0 +1,126 @@
+#intro {
+  padding: 3rem 3rem 0;
+}
+#intro .faq-title {
+  margin-bottom: 1rem;
+}
+#intro .faq-title b {
+  font-size: 35px;
+}
+#intro .faq-description {
+  margin-bottom: 3rem;
+}
+#intro .faq-description p {
+  font-size: 14px;
+  color: #7b7b93;
+}
+
+#login {
+  padding-bottom: 5rem;
+}
+#login .left .title {
+  text-align: center;
+  font-size: 22px;
+}
+#login .left .form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+#login .left .form .form-group .email, #login .left .form .form-group .password {
+  width: 50%;
+}
+#login .left .form .form-group .email label, #login .left .form .form-group .password label {
+  font-size: 15px;
+  margin-left: 0.5rem;
+  margin-bottom: 5px;
+}
+#login .left .form .form-group .email input, #login .left .form .form-group .password input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #cecee2;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+  position: relative;
+  outline: none;
+}
+#login .left .form .form-group .email .hidden, #login .left .form .form-group .password .hidden {
+  color: #fd475d;
+  font-size: 12px;
+  float: right;
+  -ms-user-select: none;
+      user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+#login .left .form .form-group .remember {
+  width: 48%;
+}
+#login .left .form .form-group button {
+  margin-top: 1rem;
+  width: 50%;
+  height: 45px;
+  border: 1px solid #cecee2;
+  border-radius: 10px;
+  background-color: #fd475d;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+#login .left .form .form-group .reset {
+  margin-top: 1rem;
+  color: #15b2ec;
+}
+#login .right .login-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login .right .login-image-wrap .login-image {
+  width: 60%;
+}
+#login .right .text {
+  margin-top: 2rem;
+  text-align: center;
+  -webkit-user-select: none;
+}
+#login .right .text span {
+  font-size: 13px;
+}
+#login .right .text a {
+  margin-left: 0.5rem;
+  color: #15b2ec;
+  font-weight: bold;
+  font-size: 13px;
+}
+#login .right .text a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 999px) {
+  .right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #intro .faq-description {
+    margin-bottom: 1rem;
+  }
+  #intro b {
+    font-size: 18px !important;
+  }
+  #intro p {
+    font-size: 16px !important;
+  }
+  .left .title b {
+    font-size: 18px !important;
+  }
+  .left .form-group {
+    margin-top: 0 !important;
+    scale: 0.8 !important;
+  }
+}
