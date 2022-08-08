@@ -86,8 +86,10 @@
 #login .right .text {
   margin-top: 2rem;
   text-align: center;
-  user-select: none;
   -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #login .right .text span {
   font-size: 13px;
