@@ -7,6 +7,9 @@
         background-repeat: no-repeat;
         background-size: contain;
         .col-12{
+            select{
+                cursor: pointer;
+            }
             .country{
                 justify-content: center;
                 margin-bottom: 2rem;

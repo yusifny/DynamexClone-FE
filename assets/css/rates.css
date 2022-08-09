@@ -118,6 +118,9 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+#calculator .calculator .col-12 select {
+  cursor: pointer;
+}
 #calculator .calculator .col-12 .country {
   justify-content: center;
   margin-bottom: 2rem;
