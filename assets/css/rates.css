@@ -123,8 +123,6 @@
   margin-bottom: 2rem;
 }
 #calculator .calculator .col-12 .country select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   font-size: 14px;
   width: 73%;
   padding: 8px;
@@ -140,8 +138,6 @@
   margin-bottom: 2rem;
 }
 #calculator .calculator .col-12 .method-type select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   width: 35%;
   padding: 8px;
   height: 50px;
