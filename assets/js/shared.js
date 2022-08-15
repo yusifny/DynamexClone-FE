@@ -22,12 +22,3 @@ $(document).ready(function(){
         $("#lang").text("RU");
     });
 });
-$( window ).on( "load", function() {
-    $('#preloader').fadeOut();
-    $('body').style.overflow = 'visible';
-});
-
-// window.addEventListener('load', () => {
-//     const loader = document.querySelector('#preloader');
-//     loader.style.display = 'none';
-// });
