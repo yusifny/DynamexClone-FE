@@ -22,3 +22,7 @@ $(document).ready(function(){
         $("#lang").text("RU");
     });
 });
+$( window ).on( "load", function() {
+    $('#preloader').fadeOut('slow');
+    $('body').css('overflow','visible');
+});
